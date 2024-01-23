@@ -1,0 +1,15 @@
+.btn {
+  height: 36px;
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 20px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 4px 40px;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+.btn:hover {
+  background-color: black;
+}

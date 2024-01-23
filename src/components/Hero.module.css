@@ -1,0 +1,23 @@
+main {
+  height: 654px;
+  background-image: url(./outdoor.png);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+main p {
+  font-size: 1.25rem;
+}

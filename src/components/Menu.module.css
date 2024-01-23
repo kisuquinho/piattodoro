@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu p {
+  max-width: 720px;
+}
+
+p > span {
+  font-weight: var(--fw-semibold);
+}
+
+.showcase {
+  margin-top: 20px;
+  display: flex;
+  gap: 28px;
+}
+
+.showcase img {
+  width: 256px;
+}
