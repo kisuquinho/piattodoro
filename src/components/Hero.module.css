@@ -9,6 +9,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: -84px;
 }
 
 .overlay {
@@ -20,4 +21,21 @@ main {
 
 main p {
   font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    height: 512px;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    height: 400px;
+    margin-top: -59px;
+  }
 }

@@ -12,8 +12,8 @@
 }
 
 .rodizio .min {
-  margin-top: 80px;
-  margin-bottom: -80px;
+  margin-top: 62px;
+  margin-bottom: -62px;
   font-size: 12px;
   max-width: 880px;
 }
@@ -30,4 +30,38 @@
 .btnwrapper {
   margin-top: 4px;
   display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .rodizio {
+    margin-top: -40px;
+  }
+
+  .rodizio p {
+    max-width: 720px;
+  }
+
+  .rodizio .min {
+    margin-top: 28px;
+    margin-bottom: -28px;
+    font-size: 8px;
+  }
+
+  .horario {
+    padding: 4px 12px;
+  }
+
+  .horario p {
+    padding: 0px;
+  }
+
+  .horario svg {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btnwrapper {
+    margin-top: 0px;
+  }
 }

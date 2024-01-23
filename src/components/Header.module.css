@@ -4,7 +4,8 @@ header {
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5.5px);
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 10;
 }
 
@@ -33,4 +34,20 @@ li {
 
 .instagram:hover {
   fill: var(--clr-neutral-900);
+}
+
+@media screen and (max-width: 1000px) {
+  .instagram {
+    width: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 6px 0px;
+  }
+
+  nav {
+    display: none;
+  }
 }

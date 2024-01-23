@@ -8,7 +8,7 @@ const Rodizio = () => {
         <section className={styles.rodizio}>
             <h2>RODÍZIO DE MASSAS</h2>
             <p>Em todas as sextas-feiras preparamos a casa para degustação ilimitada de dezenas de items do menu através
-                de nosso Rodízio de Massas. Na hora final, além de massas, iniciamos o menu de sobremesas.
+                de nosso <span>Rodízio de Massas</span>. Na hora final, além de massas, iniciamos o menu de sobremesas.
             </p>
             <div className={styles.horario}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36" fill="none">

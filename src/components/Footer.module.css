@@ -8,3 +8,15 @@ iframe {
   height: 256px;
   border: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  iframe {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    height: 140px;
+  }
+}

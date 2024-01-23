@@ -1,5 +1,4 @@
 .btn {
-  height: 36px;
   color: hsla(0, 0%, 100%, 1);
   font-size: 20px;
   font-weight: 500;
@@ -20,4 +19,15 @@
   padding: 8px 20px;
   font-size: 18px;
   border: 1px solid hsla(0, 0%, 100%, 1);
+}
+
+@media screen and (max-width: 1000px) {
+  .btn {
+    font-size: 16px;
+    padding: 6px 28px;
+  }
+
+  .section {
+    padding: 6px 20px;
+  }
 }
