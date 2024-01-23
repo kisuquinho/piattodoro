@@ -25,6 +25,10 @@ p > span {
 }
 
 @media screen and (max-width: 1000px) {
+  .menu {
+    margin-top: -84px;
+  }
+
   .showcase {
     margin-top: 8px;
     gap: 18px;
@@ -52,11 +56,20 @@ p > span {
 
 @media screen and (max-width: 380px) {
   .showcase {
-    flex-direction: column;
     gap: 12px;
   }
 
   .showcase img {
-    width: 156px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .showcase {
+    gap: 12px;
+  }
+
+  .showcase img {
+    width: 64px;
   }
 }
