@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Menu from './components/Menu'
 import AdInfo from './components/AdInfo'
 import Footer from './components/Footer'
+import Rodizio from './components/Rodizio'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Menu></Menu>
+      <Rodizio></Rodizio>
       <AdInfo></AdInfo>
       <Footer></Footer>
     </>

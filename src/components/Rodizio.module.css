@@ -1,0 +1,33 @@
+.rodizio {
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.rodizio p {
+  max-width: 720px;
+}
+
+.rodizio .min {
+  margin-top: 80px;
+  margin-bottom: -80px;
+  font-size: 12px;
+  max-width: 880px;
+}
+
+.horario {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 6px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnwrapper {
+  margin-top: 4px;
+  display: flex;
+}

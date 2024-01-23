@@ -13,3 +13,11 @@
 .btn:hover {
   background-color: black;
 }
+
+.section {
+  height: auto;
+  font-weight: 400;
+  padding: 8px 20px;
+  font-size: 18px;
+  border: 1px solid hsla(0, 0%, 100%, 1);
+}

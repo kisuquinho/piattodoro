@@ -7,9 +7,9 @@ const Menu = () => {
             <p>Conta com os favoritos dos fundadores e os principais tradicionais pratos italianos.
 Além disso, a cada semana temos um <span>piatto speciale</span> novo adicionado temporariamente ao menu.</p>
             <div className={styles.showcase}>
-                <img src="./food1.png" alt="" />
-                <img src="./food2.png" alt="" />
-                <img src="./food3.png" alt="" />
+                <img src="./public/food1.png" alt="Food picture" />
+                <img src="./public/food2.png" alt="Food picture" />
+                <img src="./public/food3.png" alt="Food picture" />
             </div>
         </article>
     )
