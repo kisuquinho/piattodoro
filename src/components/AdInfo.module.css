@@ -1,5 +1,6 @@
 .adinfo {
-  background-image: url("./adinfo.png");
+  background-image: url(./public/adinfo.png);
+  background-size: cover;
   position: relative;
 }
 
