@@ -26,3 +26,11 @@ ul {
 li {
   list-style: none;
 }
+
+.instagram {
+  transition: 0.7s;
+}
+
+.instagram:hover {
+  fill: var(--clr-neutral-900);
+}
