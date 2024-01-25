@@ -15,7 +15,7 @@ const Header = () => {
                               <path d="M26.25 9.75H26.265" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                         </a></li>
-                        <li><ButtonReserva>Reservar</ButtonReserva></li>
+                        <li><ButtonReserva href='https://api.whatsapp.com/send?phone=5533999904680&text=Olá! Gostaria de fazer uma reserva.'>Reservar</ButtonReserva></li>
                     </ul>
                 </nav>
             </div>

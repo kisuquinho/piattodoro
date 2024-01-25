@@ -1,11 +1,11 @@
 import styles from './ButtonReserva.module.css';
 
-const ButtonReserva = ( { children, type } ) => {
+const ButtonReserva = ( { children, type, href } ) => {
 
     const className = `${styles.btn} ${styles[type]}`;
 
     return (
-        <a href="https://api.whatsapp.com/send?phone=5533999904680&text=Olá!" className={className}>
+        <a href={href} className={className}>
             {children}
         </a>
     )

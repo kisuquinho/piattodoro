@@ -5,7 +5,7 @@ const AdInfo = () => {
         <section className={styles.adinfo}>
             <div className={styles.overlay}></div>
             <h2>HORÁRIO DE FUNCIONAMENTO</h2>
-            <p>Segunda a sexta de 17h às 21h <br />
+            <p>Segunda a sexta de 17h às 22h <br />
 Sábado de 18h às 23h</p>
         </section>
     )

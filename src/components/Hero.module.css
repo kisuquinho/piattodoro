@@ -1,6 +1,6 @@
 main {
   height: 654px;
-  background-image: url("../assets/outdoor.png");
+  background-image: url("../assets/outdoor.avif");
   background-size: cover;
   background-position: bottom;
   display: flex;
